@@ -2,25 +2,79 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background-color: white
+    font-family: sans-serif;
+    
+    
+}
+  
+
+
+body{
+    background-color: rgb(184, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
+/* .qr-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+} */
+
+.wrapper{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    width: 380px;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+}
 
 .qr-image{
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 40px;
 }
 
-
-
-
-.qr-image img{
-    width: 350px;
+.qr-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
     border-radius: 20px;
     background-image: url(./images/Barnca.jpg);
-    
-    
 }
+
+h3{
+    text-align: center;
+    text-align: center;
+    width: 250px ;
+
+}
+
+.text{ 
+    color: rgb(107, 101, 101);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sub1{
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+}
+
+
 
